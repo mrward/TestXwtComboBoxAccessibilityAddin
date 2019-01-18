@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionModel>
+	<Runtime>
+	</Runtime>
+
+	<Extension path="/MonoDevelop/Ide/Commands">
+		<Category _name="Test" id="Test">
+			<Command
+				id="TestXwtComboBoxAccessibilityAddin.OpenDialog"
+				_description="Opens an XWT dialog"
+				_label="Open XWT ComboBox Test dialog"
+				defaultHandler="TestXwtComboBoxAccessibilityAddin.OpenDialogHandler" />
+		</Category>
+	</Extension>
+
+	<Extension path="/MonoDevelop/Ide/MainMenu">
+		<ItemSet id = "XWTTest" _label = "XWT Test">
+			<CommandItem
+				id="TestXwtComboBoxAccessibilityAddin.OpenDialog" />
+		</ItemSet>
+	</Extension>
+</ExtensionModel>
